@@ -26,7 +26,24 @@
 - Skewed passenger count distribution  
 - Seasonal peaks (July, August, December)  
 - Growth until 2015; dip in 2016 (data issue)  
+ # Data Dictionary
 
+| Field              | Description                         | Variable Type     | Scale   | Example Value   | Additional Information                          |
+|--------------------|-------------------------------------|-------------------|---------|-----------------|-----------------------------------------------|
+| Activity Period          | Unique Period identifier (YYYYMM)                     | continuous         | Interval| 200507            | Represented Year and Month combined (e.g:,200507 = July 2005)  |
+| Operating Airline         | Name of the airline                  | Discrete      | Nominal | ATA Airlines          | Airline Company Operating the Flight           |
+| Operating Airline IATA Code         | IATA code of the airline                | Discrete       | Nominal |  TZ          | Two-character Airline code                             |
+| GEO Region       |  Geographic region of operation               | Discrete      | Nominal | US             | Region code (e.g., US, International, Asia, etc.)        |
+| Terminal              | Airport Terminal           | Discrete       | Nominal   | Terminal 1       | Terminal used for boarding/departure        |
+|Boarding Area        | Boarding Gate/Area in Terminal          | Discrete         | Nominal   | B             | Subdivison Of terimanal                      |
+| Passenger Count  |     Number of Passengers          | Continuous      | Ratio | 27,271       | Non-negative integer, zero is meanigful                       |
+| Year    | Year Of Operation | Continuous       | Interval| 2005             | Extracted From Activity Period      |
+| Month         | Month Of Operation            | Discrete      | Ordinal | July          | Names of months, Natural order (Jan - Dec)               |
+
+| 15007 x 9 |
+|-----------|
+
+------------------
 ---
 
 ## 3. Data Preparation
