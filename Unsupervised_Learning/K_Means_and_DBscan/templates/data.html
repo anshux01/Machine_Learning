@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clustering Results</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f1faee;
+            margin: 0;
+            padding: 20px;
+        }
+        h1, h2 {
+            text-align: center;
+            color: #1d3557;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            padding: 15px;
+            background: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+        }
+        .table {
+            width: 80%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+        .table th, .table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: center;
+        }
+        .table thead {
+            background-color: #457b9d;
+            color: white;
+        }
+        .summary {
+            margin-top: 30px;
+            padding: 20px;
+            background: #a8dadc;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            color: #6c757d;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Airline Passenger Clustering Results</h1>
+        <p style="text-align:center;">Predicted clusters using <b>KMeans</b> and <b>DBSCAN</b></p>
+        {{ Y | safe }}
+    </div>
+
+    <div class="footer">
+        <p>Developed by <b>Anshuman Acharya</b> | Airline Passenger Clustering Project</p>
+    </div>
+</body>
+</html>
