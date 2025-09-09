@@ -130,8 +130,21 @@ The dataset used in this project contains **airline passenger statistics** with 
 -----
 **Requirements**
 
-See requirements.txt
- for all Python dependencies.
+
+```text
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+scikit-learn
+kneed
+joblib
+feature-engine
+sqlalchemy
+pymysql
+flask
+```
 
 ---
 Key Insights
@@ -151,5 +164,6 @@ Anshuman Acharya
 
 LinkedIn: [Anshuman A Acharya](https://www.linkedin.com/posts/anshuman-a-acharya_datascience-machinelearning-clustering-activity-7371113974584537088-89L4?utm_source=share&utm_medium=member_desktop&rcm=ACoAAENnC2sBcZrn31mFIUf41h08wp3-w3f9PlQ)
 
-GitHub: anshux01
+GitHub: [anshux01](https://github.com/anshux01/Machine_Learning/tree/main/Unsupervised_Learning/K_Means_and_DBscan)
+
 
