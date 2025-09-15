@@ -56,8 +56,10 @@ game-recommender/
 
 ## 📸 Screenshots
 
-- **Home Page (Form):** User selects a game and number of recommendations.  
-- **Results Page:** Displays recommended games in a table format.  
+- **Home Page (Form):** <img width="807" height="543" alt="Screenshot 2025-09-15 213044" src="https://github.com/user-attachments/assets/3b7e712b-9860-4ffa-9d85-ad42809aec22" />
+  
+- **Results Page:**  <img width="1042" height="556" alt="Screenshot 2025-09-15 213056" src="https://github.com/user-attachments/assets/bf01a31a-361d-40eb-b18c-23e2541bc8b3" />
+ 
 
 ---
 
