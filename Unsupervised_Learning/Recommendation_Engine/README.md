@@ -13,8 +13,8 @@ game-recommender/
 │── templates/
 │   ├── index.html         # Home page (form)
 │   ├── results.html       # Results page (recommendations)
-│── static/
-│   ├── style.css          # (Optional) Custom CSS
+│──Recommendation_engine.ipynb #jupiternotebook
+│── game.csv               # dataset
 │── README.md              # Project documentation
 ```
 
