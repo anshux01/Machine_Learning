@@ -9,8 +9,8 @@ from urllib.parse import quote_plus
 app = Flask(__name__)
 
 # Database connection - update with your credentials
-user = 'Anshuman'
-pw = 'Anshu@1004'
+user = 'root'
+pw = 'root'
 db = 'Recommendation_engine'
 pw = quote_plus(pw)
 engine = create_engine(f'mysql+pymysql://{user}:{pw}@localhost/{db}')
@@ -85,3 +85,4 @@ def recommend():
 
 if __name__ == '__main__':
     app.run(debug=True, use_reloader=False)
+
