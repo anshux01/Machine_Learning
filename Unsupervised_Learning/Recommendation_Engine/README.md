@@ -22,10 +22,9 @@ game-recommender/
 
 ## 🚀 Features
 
-- User & Game input form with Bootstrap styling  
 - Recommendation results in a clean table format  
 - Personalized with **Anshuman Acharya’s Game Recommender**  
-- Responsive design using Bootstrap 5  
+- Result Stores in data base
 
 ---
 
